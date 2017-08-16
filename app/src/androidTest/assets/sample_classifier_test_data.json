@@ -1,0 +1,350 @@
+[
+  {
+    "text": "God is love",
+    "is_food": false
+  },
+  {
+    "text": "OpenGL on the GPU is fast",
+    "is_food": false
+  },
+  {
+    "text": "Pizzas",
+    "is_food": true
+  },
+  {
+    "text": "Paella",
+    "is_food": true
+  },
+  {
+    "text": "beef sandwich with balboa stuff",
+    "is_food": true
+  },
+  {
+    "text": "Veronica forque",
+    "is_food": false
+  },
+  {
+    "text": "Fish & Chips with smashed puree",
+    "is_food": true
+  },
+  {
+    "text": "Smashing Pumpkins",
+    "is_food": false
+  },
+  {
+    "text": "Do not try to process this",
+    "is_food": false
+  },
+  {
+    "text": "carrot",
+    "is_food": true
+  },
+  {
+    "text": "carrot cake",
+    "is_food": true
+  },
+  {
+    "text": "AndroidStudio",
+    "is_food": false
+  },
+  {
+    "text": "textClassifier",
+    "is_food": false
+  },
+  {
+    "text": "Android Studio has salmon",
+    "is_food": false
+  },
+  {
+    "text": "AndroidStudio textClassifier",
+    "is_food": false
+  },
+  {
+    "text": "Pizza Napolitana",
+    "is_food": true
+  },
+  {
+    "text": "Android",
+    "is_food": false
+  },
+  {
+    "text": "carrot cake with Android",
+    "is_food": false
+  },
+  {
+    "text": "String",
+    "is_food": false
+  },
+  {
+    "text": "What about that",
+    "is_food": false
+  },
+  {
+    "text": "Naive bayse",
+    "is_food": false
+  },
+  {
+    "text": "A",
+    "is_food": false
+  },
+  {
+    "text": "B",
+    "is_food": false
+  },
+  {
+    "text": "c",
+    "is_food": false
+  },
+  {
+    "text": "C",
+    "is_food": false
+  },
+  {
+    "text": "d",
+    "is_food": false
+  },
+  {
+    "text": "_",
+    "is_food": false
+  },
+  {
+    "text": "!",
+    "is_food": false
+  },
+  {
+    "text": "kajshdkah93879873",
+    "is_food": false
+  },
+  {
+    "text": "ahsda87349823742392992",
+    "is_food": false
+  },
+  {
+    "text": "Pizza with potatoes",
+    "is_food": true
+  },
+  {
+    "text": "Pasta with sauce",
+    "is_food": true
+  },
+  {
+    "text": "Hummus with falafel",
+    "is_food": true
+  },
+  {
+    "text": "Tagliatelle with coriander and tomato sauce",
+    "is_food": true
+  },
+  {
+    "text": "Saffron risotto with mushrooms",
+    "is_food": true
+  },
+  {
+    "text": "Grilled aubergine, tahini, lemon juice",
+    "is_food": true
+  },
+  {
+    "text": "Grilled halloumi & pitta bread",
+    "is_food": true
+  },
+  {
+    "text": "Cubes of marinated chicken & lamb, skewers of minced lamb & minced chicken",
+    "is_food": true
+  },
+  {
+    "text": "Vine leaves, rice, tomato, onions",
+    "is_food": true
+  },
+  {
+    "text": "Do you have an allergy or other dietary requirement?",
+    "is_food": false
+  },
+  {
+    "text": "Sautéed with garlic & coriander, dressed with pomegranate molasses",
+    "is_food": true
+  },
+  {
+    "text": "Food",
+    "is_food": false
+  },
+  {
+    "text": "Lime",
+    "is_food": true
+  },
+  {
+    "text": "Courgette",
+    "is_food": true
+  },
+  {
+    "text": "TEST",
+    "is_food": false
+  },
+  {
+    "text": "He",
+    "is_food": false
+  },
+  {
+    "text": "Me",
+    "is_food": false
+  },
+  {
+    "text": "What is this?????????",
+    "is_food": false
+  },
+  {
+    "text": "%%%%%%%",
+    "is_food": false
+  },
+  {
+    "text": "(",
+    "is_food": false
+  },
+  {
+    "text": "---",
+    "is_food": false
+  },
+  {
+    "text": "Pizza with four cheese",
+    "is_food": true
+  },
+  {
+    "text": "Erene Log",
+    "is_food": false
+  },
+  {
+    "text": "Andrwid Naniae wt",
+    "is_food": false
+  },
+  {
+    "text": "w Docr BoraphicOc",
+    "is_food": false
+  },
+  {
+    "text": "M, IAR He the ivel graphis svertsy",
+    "is_food": false
+  },
+  {
+    "text": "TIA Ia) PRIll in teearey leingn",
+    "is_food": false
+  },
+  {
+    "text": "I Check if the tert block is cs",
+    "is_food": false
+  },
+  {
+    "text": "e tert fr t",
+    "is_food": false
+  },
+  {
+    "text": "A",
+    "is_food": false
+  },
+  {
+    "text": "b",
+    "is_food": false
+  },
+  {
+    "text": "c",
+    "is_food": false
+  },
+  {
+    "text": "d",
+    "is_food": false
+  },
+  {
+    "text": "e",
+    "is_food": false
+  },
+  {
+    "text": "f",
+    "is_food": false
+  },
+  {
+    "text": "g",
+    "is_food": false
+  },
+  {
+    "text": "h",
+    "is_food": false
+  },
+  {
+    "text": "i",
+    "is_food": false
+  },
+  {
+    "text": "l",
+    "is_food": false
+  },
+  {
+    "text": "m",
+    "is_food": false
+  },
+  {
+    "text": "n",
+    "is_food": false
+  },
+  {
+    "text": "o",
+    "is_food": false
+  },
+  {
+    "text": "p",
+    "is_food": false
+  },
+  {
+    "text": "q",
+    "is_food": false
+  },
+  {
+    "text": "l",
+    "is_food": false
+  },
+  {
+    "text": "s",
+    "is_food": false
+  },
+  {
+    "text": "t",
+    "is_food": false
+  },
+  {
+    "text": "u",
+    "is_food": false
+  },
+  {
+    "text": "v",
+    "is_food": false
+  },
+  {
+    "text": "w",
+    "is_food": false
+  },
+  {
+    "text": "x",
+    "is_food": false
+  },
+  {
+    "text": "y",
+    "is_food": false
+  },
+  {
+    "text": "z",
+    "is_food": false
+  },
+  {
+    "text": "Pizza with cheese",
+    "is_food": true
+  },
+  {
+    "text": "kasj kajsk djdj",
+    "is_food": false
+  },
+  {
+    "text": "123 1230884 4398247398472",
+    "is_food": false
+  },
+  {
+    "text": "11234",
+    "is_food": false
+  }
+]

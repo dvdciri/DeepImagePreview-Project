@@ -1,0 +1,150 @@
+# Loose files #
+###############
+local.properties
+
+# Compiled binaries #
+#####################
+*.class
+*.dex
+*.apk
+*.ap_
+
+#Ignore everything but the gitignore file in this folder
+#Don't forget to add the .gitignore to the subfolders you want to keep
+*/bin/*
+*/gen/*
+**/bin/*
+**/gen/*
+!.gitignore
+
+# Metadata #
+############
+.metadata
+
+# Eclipse project files #
+#########################
+.classpath
+.project
+
+# Fitnesse #
+##########
+Fitnesse/**/*.zip
+Fitnesse/**/testResults/*
+Fitnesse/**/RecentChanges/*
+SupportingFiles/FitnesseServer/**/*.zip
+SupportingFiles/FitnesseServer/**/testResults/*
+SupportingFiles/FitnesseServer/**/RecentChanges/*
+
+# Gradle #
+##########
+.gradle
+!gradle.build
+
+build/
+# intelliJ project files #
+##########################
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries/*.xml
+.idea/*
+.idea/runConfigurations/*
+*/out/*
+*/build/*
+*/*/build
+*.swp
+*.iml
+uma-app.iml
+App/App.iml
+GridView/GridView.iml
+photos/photos.iml
+App/unused.txt
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# We add the git branch and git commit overlay to the launcher icon in the development variant
+# so we want to ignore these changes
+App/development/res/drawable-hdpi/ic_launcher.png
+App/development/res/drawable-mdpi/ic_launcher.png
+App/development/res/drawable-xhdpi/ic_launcher.png
+
+# Mockbox #
+###########
+**/mockbox/*.conf
+**/mockbox/tmp/**
+*.sublime*
+
+out.map
+*.log
+
+# Nexplayer Libraries #
+# Reason – Sample files #
+uma-drm/jniLibs/armeabi/libasfplayreadydescramblesample_jni.so
+uma-drm/jniLibs/armeabi/libdeceuvdescramblesample_jni.so
+uma-drm/jniLibs/armeabi/libdrmsample_jni.so
+uma-drm/jniLibs/armeabi/libgethttpauthinfosample_jni.so
+uma-drm/jniLibs/armeabi/libgetkeyextsample_jni.so
+uma-drm/jniLibs/armeabi/libgetpdblocksample_jni.so
+uma-drm/jniLibs/armeabi/libgetplaylistinfosample_jni.so
+uma-drm/jniLibs/armeabi/libHLSAES128Descramblesample_jni.so
+uma-drm/jniLibs/armeabi/libhlstsdescramblesample_jni.so
+uma-drm/jniLibs/armeabi/libHttpRetrieveStoreDataCallbackSample_jni.so
+uma-drm/jniLibs/armeabi/libmpddescramblesample_jni.so
+uma-drm/jniLibs/armeabi/libNexHTTPDownloaderSample_jni.so
+uma-drm/jniLibs/armeabi/libpiffplayreadydescramblesample_jni.so
+uma-drm/jniLibs/armeabi/libregisterdlapiexsample_jni.so
+uma-drm/jniLibs/armeabi/libremotefileiosample_jni.so
+uma-drm/jniLibs/armeabi/libsmoothstreamfragmentdescramblesample_jni.so
+uma-drm/jniLibs/armeabi/libsmoothstreamplayreadydescramblesample_jni.so
+uma-drm/jniLibs/armeabi/libPDEnvelopHeaderParsingsample_jni.so
+
+# Reason –  CISCO asked why we need this. Nex confirmed we dont need it. #
+uma-drm/jniLibs/armeabi/libhlstsdescramblewithbyterange_jni.so
+
+# Reason – We dont need these codecs for Sky's streams #
+uma-drm/jniLibs/armeabi/libnexcal_3gpp.so
+uma-drm/jniLibs/armeabi/libnexcal_amr_armv5.so
+uma-drm/jniLibs/armeabi/libnexcal_amr_armv6.so
+uma-drm/jniLibs/armeabi/libnexcal_amr_armv7.so
+uma-drm/jniLibs/armeabi/libnexcal_divx_armv5.so
+uma-drm/jniLibs/armeabi/libnexcal_divx_armv6.so
+uma-drm/jniLibs/armeabi/libnexcal_divx_armv7.so
+uma-drm/jniLibs/armeabi/libnexcal_in_amr_armv5.so
+uma-drm/jniLibs/armeabi/libnexcal_in_amr_armv6.so
+uma-drm/jniLibs/armeabi/libnexcal_in_amr_armv7.so
+uma-drm/jniLibs/armeabi/libnexcal_in_mp3_armv5.so
+uma-drm/jniLibs/armeabi/libnexcal_in_mp3_armv6.so
+uma-drm/jniLibs/armeabi/libnexcal_in_mp3_armv7.so
+uma-drm/jniLibs/armeabi/libnexcal_mp3_armv5.so
+uma-drm/jniLibs/armeabi/libnexcal_mp3_armv6.so
+uma-drm/jniLibs/armeabi/libnexcal_mp3_armv7.so
+
+# Reason – Related to subtitles etc. We dont support it now #
+uma-drm/jniLibs/armeabi/libnexcal_closedcaption.so
+uma-drm/jniLibs/armeabi/libnexcal_ttml.so
+uma-drm/jniLibs/armeabi/libnexcal_webvtt.so
+
+# Reason - We dont support these Android versions, Cupcake,Eclair,Froyo,Gingerbread,Honeycomb #
+uma-drm/jniLibs/armeabi/libnexralbody_video_cu.so
+uma-drm/jniLibs/armeabi/libnexralbody_video_ec.so
+uma-drm/jniLibs/armeabi/libnexralbody_video_fr.so
+uma-drm/jniLibs/armeabi/libnexralbody_video_fr3.so
+uma-drm/jniLibs/armeabi/libnexralbody_video_gb.so
+uma-drm/jniLibs/armeabi/libnexralbody_video_hc.so
+
+# Reason - We dont support slider thumbnails now #
+uma-drm/jniLibs/armeabi/libnexthumbnail.so
+Fitnesse/pluginsrc/umadates/.idea
+App/build-go
+
+fastlane/.idea
+# Reason - backup files due to new Android versions #
+projectFilesBackup/*

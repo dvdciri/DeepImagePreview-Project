@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="min_bottom_sheet_height">75dp</dimen>
+    <dimen name="default_bar_height">50dp</dimen>
+</resources>

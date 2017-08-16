@@ -1,0 +1,77 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.davidecirillo.menupreview"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        debug {
+            buildConfigField "String", "GCE_API_KEY", "\"YOUR_GCE_API_KEY\""
+            buildConfigField "String", "MP_ENGINE_ID", "\"YOUR_ENGINE_ID\""
+
+        }
+        release {
+            buildConfigField "String", "GCE_API_KEY", "\"YOUR_GCE_API_KEY\""
+            buildConfigField "String", "MP_ENGINE_ID", "\"YOUR_ENGINE_ID\""
+
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    signingConfigs {
+
+    }
+
+    dexOptions {
+        // Prevent OutOfMemory with MultiDex during the build phase
+        javaMaxHeapSize "4g"
+    }
+
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    compile files('libs/weka.jar')
+
+    // Test dependencies
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    androidTestCompile "org.mockito:mockito-android:2.8.9"
+
+    testCompile 'junit:junit:4.12'
+    testCompile "org.mockito:mockito-core:2.8.9"
+
+    // App dependencies
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.google.android.gms:play-services-vision:10.2.6'
+    compile 'com.android.support:percent:24.0.0'
+
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+
+    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
+    compile 'com.github.mzelzoghbi:zgallery:0.3'
+
+}

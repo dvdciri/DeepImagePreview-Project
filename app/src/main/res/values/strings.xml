@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Menu Previewer</string>
+    <string name="low_storage_error">Low storage error, try again later</string>
+    <string name="preview_history_menu_title">Preview history</string>
+    <string name="mask_text">Capture food text here</string>
+    <string name="result_error_message">Sorry, we\'re having connectivity issues</string>
+    <string name="results_for_label">Results for:</string>
+    <string name="no_history_found">No history found</string>
+</resources>
