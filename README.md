@@ -1,5 +1,8 @@
 # DeepImagePreview-Project
 
+<img src="https://raw.githubusercontent.com/dvdciri/DeepImagePreview-Project/master/images/screen_2.png" height="350" /><img src="https://raw.githubusercontent.com/dvdciri/DeepImagePreview-Project/master/images/screen_1.png" height="350" /><img src="https://raw.githubusercontent.com/dvdciri/DeepImagePreview-Project/master/images/screen_3.png" height="350" /><img src="https://raw.githubusercontent.com/dvdciri/DeepImagePreview-Project/master/images/screen_4.png" height="350" />
+
+
 ## What
 The idea was to create an application which is able to recognize some text using the camera of the device, filter out the text that is not related to "Food", load some image from the text and finally display them to the user. 
 
@@ -26,8 +29,6 @@ In order to use this application you have to create a Google Custom Search Engin
 
 You also have to add the Google APi Key to the same file as per image below.
 
-IMAGE HERE
-
-
+<img src="https://raw.githubusercontent.com/dvdciri/DeepImagePreview-Project/master/images/GRADLE_SETUP.png" width="500" />
 
 
